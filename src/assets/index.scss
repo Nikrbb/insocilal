@@ -1,0 +1,20 @@
+.subtitle {
+  &__head {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+  }
+  &__underline {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(135deg, #00FF5B 0%, #0046DC 100%);
+  }
+  &__text {
+    text-align: left;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+  }
+}

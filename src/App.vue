@@ -1,22 +1,25 @@
 <template>
   <div id="nav">
     <Header />
-    <Introduce />
+    <AboutSection />
     <CheckSection />
+    <RepresentSection />
   </div>
   <router-view/>
 </template>
 
 <script>
 import Header from "@/components/Header";
-import Introduce from "@/components/Introduce";
+import AboutSection from "@/components/AboutSection";
 import CheckSection from "@/components/CheckSection";
+import RepresentSection from "@/components/RepresentSection";
 
 export default {
   components: {
     Header,
-    Introduce,
+    AboutSection,
     CheckSection,
+    RepresentSection,
   }
 }
 </script>

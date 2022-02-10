@@ -1,36 +1,36 @@
 <template>
-  <section class="introduce">
+  <section class="about">
     <div class="container">
-      <div class="introduce__descr">
-        <h1 class="introduce__title">MARKETING TOOLKIT <br> FOR INSTAGRAM</h1>
-        <p class="introduce__text">Become Instagram-famous and skyrocket sales by using pro tools.
+      <div class="about__descr">
+        <h1 class="about__title">MARKETING TOOLKIT <br> FOR INSTAGRAM</h1>
+        <p class="about__text">Become Instagram-famous and skyrocket sales by using pro tools.
           These must-have solutions will help you attract fans, engage with сustomers,
           сurate content, and grow revenue.</p>
         <main-button>
-          <a class="introduce__link" href="#">CHECK YOUR GROWTH</a>
+          <a class="about__link" href="#">CHECK YOUR GROWTH</a>
         </main-button>
       </div>
-      <div class="introduce__animation">
-        <ul class="introduce__item-list">
-          <li class="introduce__item introduce__item--1"><img class="introduce__item-img" src="../assets/social-icons/active_member.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--2"><img class="introduce__item-img" src="../assets/social-icons/active_growth.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--3"><img class="introduce__item-img" src="../assets/social-icons/active_auto_promo.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--4"><img class="introduce__item-img" src="../assets/social-icons/active_posting_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--5"><img class="introduce__item-img" src="../assets/social-icons/active_messages_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--6"><img class="introduce__item-img" src="../assets/social-icons/active_liking_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--7"><img class="introduce__item-img" src="../assets/social-icons/active_influence_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--8"><img class="introduce__item-img" src="../assets/social-icons/active_hashtag_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--9"><img class="introduce__item-img" src="../assets/social-icons/active_comment_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--10"><img class="introduce__item-img" src="../assets/social-icons/active_posting_icon.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--11"><img class="introduce__item-img" src="../assets/social-icons/active_growth.png" alt="social component"></li>
-          <li class="introduce__item introduce__item--12"><img class="introduce__item-img" src="../assets/social-icons/active_auto_promo.png" alt="social component"></li>
+      <div class="about__animation">
+        <ul class="about__item-list">
+          <li class="about__item about__item--1"><img class="about__item-img" src="../assets/social-icons/active_member.png" alt="social component"></li>
+          <li class="about__item about__item--2"><img class="about__item-img" src="../assets/social-icons/active_growth.png" alt="social component"></li>
+          <li class="about__item about__item--3"><img class="about__item-img" src="../assets/social-icons/active_auto_promo.png" alt="social component"></li>
+          <li class="about__item about__item--4"><img class="about__item-img" src="../assets/social-icons/active_posting_icon.png" alt="social component"></li>
+          <li class="about__item about__item--5"><img class="about__item-img" src="../assets/social-icons/active_messages_icon.png" alt="social component"></li>
+          <li class="about__item about__item--6"><img class="about__item-img" src="../assets/social-icons/active_liking_icon.png" alt="social component"></li>
+          <li class="about__item about__item--7"><img class="about__item-img" src="../assets/social-icons/active_influence_icon.png" alt="social component"></li>
+          <li class="about__item about__item--8"><img class="about__item-img" src="../assets/social-icons/active_hashtag_icon.png" alt="social component"></li>
+          <li class="about__item about__item--9"><img class="about__item-img" src="../assets/social-icons/active_comment_icon.png" alt="social component"></li>
+          <li class="about__item about__item--10"><img class="about__item-img" src="../assets/social-icons/active_posting_icon.png" alt="social component"></li>
+          <li class="about__item about__item--11"><img class="about__item-img" src="../assets/social-icons/active_growth.png" alt="social component"></li>
+          <li class="about__item about__item--12"><img class="about__item-img" src="../assets/social-icons/active_auto_promo.png" alt="social component"></li>
         </ul>
-        <div class="introduce__main-img">
-          <img class="introduce__img-body" src="../assets/introduce/robot-main/body.png" alt="robot-body">
-          <img class="introduce__img-hand1" src="../assets/introduce/robot-main/hand1.png" alt="robot-hand">
-          <img class="introduce__img-hand2" src="../assets/introduce/robot-main/hand2.png" alt="robot-hand">
-          <img class="introduce__img-headlight" src="../assets/introduce/robot-main/headlight.png" alt="robot-headlight">
-          <img class="introduce__img-ellipse" src="../assets/introduce/robot-main/ellipse.png" alt="robot-ellipse">
+        <div class="about__main-img">
+          <img class="about__img-body" src="../assets/about/robot-main/body.png" alt="robot-body">
+          <img class="about__img-hand1" src="../assets/about/robot-main/hand1.png" alt="robot-hand">
+          <img class="about__img-hand2" src="../assets/about/robot-main/hand2.png" alt="robot-hand">
+          <img class="about__img-headlight" src="../assets/about/robot-main/headlight.png" alt="robot-headlight">
+          <img class="about__img-ellipse" src="../assets/about/robot-main/ellipse.png" alt="robot-ellipse">
         </div>
       </div>
     </div>
@@ -50,9 +50,9 @@ export default {
 </script>
 
 <style lang="scss">
-  .introduce {
+  .about {
     background-color: #fff;
-    background-image: url("../assets/introduce/introduce_backgroung.png");
+    background-image: url("../assets/about/about_backgroung.png");
     background-repeat: no-repeat;
     background-position: top;
     padding-bottom: 100px;

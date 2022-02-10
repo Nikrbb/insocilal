@@ -16,10 +16,18 @@
           <button class="check__btn">PREVIEW GROWTH</button>
         </div>
 
-        <span class="check__descr">Up to 15x more effective than Instagram Bots</span>
+        <span class="check__text">Up to 15x more effective than Instagram Bots</span>
       </div>
-      <div class="check animation">
-
+      <div class="check__animation">
+        <div class="check__phone">
+          <img src="../assets/check/phone_check.png" alt="">
+        </div>
+        <div class="check__robot">
+          <img src="../assets/check/robot_check.png" alt="">
+        </div>
+        <div class="check__circle">
+          <img src="../assets/check/ellipce_check.png" alt="">
+        </div>
       </div>
    </section>
   </div>
@@ -31,30 +39,16 @@
 </script>
 
 <style lang="scss">
-  .subtitle {
-    &__head {
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      margin: 0;
-    }
-    &__underline {
-      display: block;
-      height: 4px;
-      width: 100%;
-      background: linear-gradient(135deg, #00FF5B 0%, #0046DC 100%);
-    }
-    &__text {
-      font-size: 18px;
-      line-height: 22px;
-      margin: 0;
-    }
-  }
   .check {
-    padding-top: 100px;
-    max-width: 600px;
-    &__descr {
+    display: flex;
+    margin-top: 150px;
+    padding-bottom: 43px;
 
+    &__descr {
+      padding-top: 100px;
+      text-align: left;
+      max-width: 600px;
+      width: 100%;
     }
 
     &__subtitle {
@@ -91,10 +85,47 @@
       border: none;
       border-left: 2px solid #07166C;;
       white-space: nowrap;
+      background-color: #38D89A;
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 700;
     }
 
-    &__descr {
+    &__text {
+      text-align: left;
+      display: inline-block;
+      margin-top: 14px;
+    }
 
+    &__animation {
+      position: relative;
+      max-width: 600px;
+      width: 100%;
+      height: 570px;
+    }
+
+    &__phone {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+
+    &__robot {
+      position: absolute;
+      top: -7%;
+      left: 52%;
+      transform: translateX(-30%);
+      z-index: 3;
+    }
+
+    &__circle {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
     }
   }
 </style>
